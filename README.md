@@ -117,8 +117,29 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 ![Imágen 3](images/part1/part1-vm-resize.png)
 
 11. Una vez el cambio se vea reflejado, repita el paso 7, 8 y 9.
+
+![image](https://user-images.githubusercontent.com/37603257/115591014-40736d80-a297-11eb-9eef-187dbe0ee4af.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591152-6c8eee80-a297-11eb-80ea-39986c893e30.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591432-b4ae1100-a297-11eb-9c4a-ebee77079d91.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591486-c2639680-a297-11eb-979c-6994fd82d3db.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591553-d3140c80-a297-11eb-99ed-5f5cd963d029.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591629-eb842700-a297-11eb-8afb-5a8e452c433f.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591685-fb9c0680-a297-11eb-9569-fea1cfda0b62.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591745-0f476d00-a298-11eb-9cc7-a71ad5510f53.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591792-1ec6b600-a298-11eb-9cef-7ea1df5e6bde.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115591832-2a19e180-a298-11eb-86b1-81e311293d19.png)
+
 12. Evalue el escenario de calidad asociado al requerimiento no funcional de escalabilidad y concluya si usando este modelo de escalabilidad logramos cumplirlo.
-13. Vuelva a dejar la VM en el tamaño inicial para evitar cobros adicionales.
+14. Vuelva a dejar la VM en el tamaño inicial para evitar cobros adicionales.
 
 **Preguntas**
 
