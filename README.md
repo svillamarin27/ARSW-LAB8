@@ -1,5 +1,6 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
+### Daniel Vargas O. - Sebastián Villamarín R.
 
 ## Escalamiento en Azure con Maquinas Virtuales, Sacale Sets y Service Plans
 
@@ -50,15 +51,46 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 7. La función que calcula en enésimo número de la secuencia de Fibonacci está muy mal construido y consume bastante CPU para obtener la respuesta. Usando la consola del Browser documente los tiempos de respuesta para dicho endpoint usando los siguintes valores:
     * 1000000
+    
+   ![image](https://user-images.githubusercontent.com/37603257/115588252-2b490f80-a294-11eb-91fd-5964a63fb635.png)
+
     * 1010000
+
+   ![image](https://user-images.githubusercontent.com/37603257/115588366-4a47a180-a294-11eb-9281-7df4181a9280.png)
+
     * 1020000
+
+   ![image](https://user-images.githubusercontent.com/37603257/115588550-7d8a3080-a294-11eb-9dcd-15bee6c9e939.png)
+
     * 1030000
+
+   ![image](https://user-images.githubusercontent.com/37603257/115588673-985ca500-a294-11eb-8f04-209b83cfa34f.png)
+
+
     * 1040000
+
+   ![image](https://user-images.githubusercontent.com/37603257/115588757-af9b9280-a294-11eb-8cb4-bc067eb8e435.png)
+
     * 1050000
+
+   ![image](https://user-images.githubusercontent.com/37603257/115589026-ff7a5980-a294-11eb-8d2c-f5eb12e3881b.png)
+
     * 1060000
+
+   ![image](https://user-images.githubusercontent.com/37603257/115589131-1c169180-a295-11eb-8130-e6f6490e475c.png)
+
     * 1070000
+
+   ![image](https://user-images.githubusercontent.com/37603257/115589342-53853e00-a295-11eb-8775-c03ffbb12efe.png)
+
     * 1080000
+
+   ![image](https://user-images.githubusercontent.com/37603257/115589386-64ce4a80-a295-11eb-99e6-d7690d383eb6.png)
+
     * 1090000    
+    
+    ![image](https://user-images.githubusercontent.com/37603257/115589445-77e11a80-a295-11eb-8bd5-bd369e5f4947.png)
+
 
 8. Dírijase ahora a Azure y verifique el consumo de CPU para la VM. (Los resultados pueden tardar 5 minutos en aparecer).
 
