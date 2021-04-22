@@ -358,12 +358,22 @@ Cuando se configura un nuevo balanceador de carga se crea una Health probe que u
 
 * Informe de newman 1 (Punto 2)
 
-   [https://github.com/svillamarin27/ARSW-LAB8/blob/main/README.md](README)
+   [README](https://github.com/svillamarin27/ARSW-LAB8/blob/main/README.md)
 
 * Presente el Diagrama de Despliegue de la solución.
 
 ![image](https://user-images.githubusercontent.com/37603257/115646503-dfc05100-a2e7-11eb-85da-f6e5a535af16.png)
 
+
+### Referencias
+
+   - https://docs.microsoft.com/en-us/azure/load-balancer/skus
+
+   -https://azure.microsoft.com/en-us/pricing/calculator/
+
+   - https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+
+   - https://azure.microsoft.com/en-us/blog/azure-load-balancer-new-distribution-mode/
 
 
 
