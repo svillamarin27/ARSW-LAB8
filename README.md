@@ -369,7 +369,7 @@ Cuando se configura un nuevo balanceador de carga se crea una Health probe que u
 
    - https://docs.microsoft.com/en-us/azure/load-balancer/skus
 
-   -https://azure.microsoft.com/en-us/pricing/calculator/
+   - https://azure.microsoft.com/en-us/pricing/calculator/
 
    - https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
 
