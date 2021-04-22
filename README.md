@@ -169,6 +169,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
    ![image](https://user-images.githubusercontent.com/37603257/115634583-83e9ce00-a2cf-11eb-9a74-4ebddb9553fb.png)
    ![image](https://user-images.githubusercontent.com/37603257/115634666-b267a900-a2cf-11eb-9073-1c092f1374a4.png)
+   
    La implementación de la función de Fibonacci no aprovecha bien los recursos del sistema al estar implementada iterativamente y no usar más hilos, se repiten cálculos para hallar el resultado de cada iteración que podrían ser almacenados en memoria.
 
 5. Adjunte imágen del consumo de CPU de la VM e interprete por qué la función consume esa cantidad de CPU.
@@ -278,8 +279,19 @@ Realice este proceso para las 3 VMs, por ahora lo haremos a mano una por una, si
 http://52.155.223.248/
 http://52.155.223.248/fibonacci/1
 ```
+![image](https://user-images.githubusercontent.com/37603257/115635968-741fb900-a2d2-11eb-9898-d7d5656b154e.png)
+
+![image](https://user-images.githubusercontent.com/37603257/115635992-839f0200-a2d2-11eb-85d2-8847eb105e57.png)
 
 2. Realice las pruebas de carga con `newman` que se realizaron en la parte 1 y haga un informe comparativo donde contraste: tiempos de respuesta, cantidad de peticiones respondidas con éxito, costos de las 2 infraestrucruras, es decir, la que desarrollamos con balanceo de carga horizontal y la que se hizo con una maquina virtual escalada.
+
+   - **Vertical :**
+   ![image](https://user-images.githubusercontent.com/37603257/115636155-e5f80280-a2d2-11eb-99d1-8ab767510def.png)
+
+   - **Horizontal :**
+   ![image](https://user-images.githubusercontent.com/37603257/115636218-0d4ecf80-a2d3-11eb-8c28-c3583c3f81ec.png)
+   
+   Analizando estas tablas, se puede concluir que ,los tiempos de respuesta no varian mucho, pero por costo y probabilidad de perdidas en las respuestas resulta mejor, en este caso, implementar una infraestructura con escalabilidad horizontal, ya que la vertical se puede volver muy costosa ademas de ser limitada y no se desempeña tan bien.
 
 3. Agregue una 4 maquina virtual y realice las pruebas de newman, pero esta vez no lance 2 peticiones en paralelo, sino que incrementelo a 4. Haga un informe donde presente el comportamiento de la CPU de las 4 VM y explique porque la tasa de éxito de las peticiones aumento con este estilo de escalabilidad.
 
@@ -289,6 +301,12 @@ newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALAN
 newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALANCING_AZURE].postman_environment.json -n 10 &
 newman run ARSW_LOAD-BALANCING_AZURE.postman_collection.json -e [ARSW_LOAD-BALANCING_AZURE].postman_environment.json -n 10
 ```
+![image](https://user-images.githubusercontent.com/37603257/115640560-dda4c500-a2dc-11eb-82a2-3016f7e559dd.png)
+![image](https://user-images.githubusercontent.com/37603257/115640586-ef866800-a2dc-11eb-87ee-d66eed5eb968.png)
+![image](https://user-images.githubusercontent.com/37603257/115640607-fa40fd00-a2dc-11eb-91dc-9691b94f14eb.png)
+![image](https://user-images.githubusercontent.com/37603257/115640631-075dec00-a2dd-11eb-8c98-8213ef1e1cc0.png)
+   
+   La respuestas son menos probables que se pierdan con una escalabilidad horizontal pues al tener mas nodos se distribuye entre ellos cada una de las solicitudes.
 
 **Preguntas**
 
