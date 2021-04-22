@@ -358,7 +358,7 @@ Cuando se configura un nuevo balanceador de carga se crea una Health probe que u
 
 * Informe de newman 1 (Punto 2)
 
-   [README](README)
+   [https://github.com/svillamarin27/ARSW-LAB8/blob/main/README.md](README)
 
 * Presente el Diagrama de Despliegue de la solución.
 
